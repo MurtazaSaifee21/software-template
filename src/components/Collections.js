@@ -18,8 +18,7 @@ function Collections() {
                     alt={cat.name}
                     width={400}
                     height={192}
-                    className="w-full h-48 object-cover"
-                    style={{ objectFit: 'cover', width: '100%', height: '12rem' }}
+                    className="object-cover"
                 />
                 <div className="p-4 flex flex-col items-center">
                     <h3 className="text-xl font-semibold mb-2">{cat.name}</h3>
